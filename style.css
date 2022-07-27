@@ -1,0 +1,182 @@
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #f8f9fa;
+    background: #343a40;
+    box-sizing: border-box;
+  }
+
+  /*header section*/
+  header, nav {
+    display: block;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #ff214f;
+    border-color: #ff214f;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #fa0034;
+    border-color: #ed0031;
+  }
+  
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  .header {
+    height: 100vh;
+    max-height: 900px;
+    background: url(imgs/main.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 750px;
+  }
+  
+  .header .overlay {
+    height: 100%;
+    background: rgba(32, 32, 32, 0.85);
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+/*End Header section*/
+
+/*navbar section*/
+  .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+    color: #ff214f;
+  }
+  .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
+    color: #ff214f;
+  }
+  
+  .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+    color: #ff214f;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-dark .navbar-text {
+    color: #fff;
+  }
+  
+  .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
+    color: #ff214f;
+  }
+
+  .bg-primary .navbar-brand:hover{
+    color: #e6e6e6;
+  }
+  
+  .custom-navbar .collapse .navbar-nav,
+  .custom-navbar .collapse .navbar-brand {
+    width: 100%;
+  }
+  
+  .custom-navbar .collapse .navbar-nav:last-child {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  
+  .navbar-brand {
+    text-align: center;
+  }
+  
+  .navbar-brand .brand-img {
+    width: 110px;
+    display: inline-block;
+    margin: auto;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+  }
+  
+  .navbar.gummy{
+    min-height:100px;
+    background-color: rgb(31, 30, 30);
+  }
+
+  .brand-img.vanish{
+    display: none;
+  }
+  .brand-txt{
+    display: none;
+  }
+
+  .brand-txt.display{
+    display: block;
+    color: #ff214f;
+    font-size: 30px;
+    align-items: center;
+  }
+ /*End navbar section*/
+
+/*About section*/
+  .section-title{
+    font-size: 50px;
+  }
+  .img-background {
+    background: url(imgs/about-section.jpg) no-repeat center center;
+    background-size: cover;
+}
+/*End About section*/
+
+/*gallary section*/
+  .gallary {
+    margin: 0;
+  }
+  
+  .gallary .gallary-item {
+    padding: 0;
+    border: 1px solid #343a40;
+  }
+  
+  .gallary .gallary-item .gallary-img {
+    width: 100%;
+  }
+  
+  .has-height-md {
+    min-height: 300px;
+  }
+  .item-center {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+/*End Gallary section*/
